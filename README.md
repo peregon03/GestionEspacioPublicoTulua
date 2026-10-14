@@ -104,8 +104,8 @@ Room / Retrofit / MockData
    ```
    Editar `local.properties` y agregar la clave de Google Maps:
    ```properties
-   MAPS_API_KEY=AIzaSy...tu_clave_aqui
-   BASE_URL=https://api.tulua.gov.co/api/v1/
+   MAPS_API_KEY=xxxxxx (No toquen esta parte, solo tengan claro que existe)
+   BASE_URL=xxxxx
    ```
    > `local.properties` esta en `.gitignore`. **Nunca lo suban al repositorio.**
 
