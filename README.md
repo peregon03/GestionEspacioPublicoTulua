@@ -178,15 +178,15 @@ Room / Retrofit / MockData
 
 ## Integrantes del equipo
 
-| Nombre | Codigo |
-|--------|--------|
-| Michael Perez | 2266121 |
-| Santiago Sanchez | 2359606 |
-| Juan Manuel Perez | 2266033 |
-| Julian Cortes Navarro | 2159816 |
-| Juan Vargas | 2380678 |
-| Nicolas Restrepo | 2380471 |
-| _(por definir)_ | |
+| Nombre                | Codigo   |
+|-----------------------|----------|
+| Michael Perez         | 2266121  |
+| Santiago Sanchez      | 2359606  |
+| Juan Manuel Perez     | 2266033  |
+| Julian Cortes Navarro | 2159816  |
+| Juan Vargas           | 2380678  |
+| Nicolas Restrepo      | 2380471  |
+| Daniel Felipe Rojas   | 2569189  |
 
 ---
 
