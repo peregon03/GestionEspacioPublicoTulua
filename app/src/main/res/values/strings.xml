@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ── App ──────────────────────────────────────────────────────────────── -->
+    <string name="app_name">Tulua Espacio Publico</string>
+
+    <!-- ── Bottom Navigation Tabs (max 8 chars) ─────────────────────────────── -->
+    <string name="tab_inicio">Inicio</string>
+    <string name="tab_mapa">Mapa</string>
+    <string name="tab_censo">Censo</string>
+    <string name="tab_eventos">Eventos</string>
+    <string name="tab_tramites">Tramites</string>
+
+    <!-- ── Screen titles ─────────────────────────────────────────────────────── -->
+    <string name="screen_dashboard">Inicio</string>
+    <string name="screen_mapa">Mapa de Vendedores</string>
+    <string name="screen_censo">Censo Ambulante</string>
+    <string name="screen_eventos">Eventos</string>
+    <string name="screen_tramites">Tramites</string>
+
+    <!-- ── Placeholder texts ─────────────────────────────────────────────────── -->
+    <string name="placeholder_dashboard">Dashboard — Proxima implementacion</string>
+    <string name="placeholder_mapa">Mapa — Proxima implementacion</string>
+    <string name="placeholder_censo">Censo — Proxima implementacion</string>
+    <string name="placeholder_eventos">Eventos — Proxima implementacion</string>
+    <string name="placeholder_tramites">Tramites — Proxima implementacion</string>
+
+    <!-- ── Common / shared strings ───────────────────────────────────────────── -->
+    <string name="loading">Cargando…</string>
+    <string name="error_generic">Ocurrio un error inesperado. Por favor intente de nuevo.</string>
+    <string name="error_no_internet">Sin conexion a internet. Verifique su red e intente de nuevo.</string>
+    <string name="retry">Reintentar</string>
+    <string name="ver_todos">Ver todos</string>
+    <string name="search_hint">Buscar…</string>
+    <string name="empty_state_title">Sin resultados</string>
+    <string name="empty_state_subtitle">No se encontraron elementos que coincidan con la busqueda.</string>
+    <string name="cancel">Cancelar</string>
+    <string name="save">Guardar</string>
+    <string name="delete">Eliminar</string>
+    <string name="edit">Editar</string>
+    <string name="confirm">Confirmar</string>
+    <string name="close">Cerrar</string>
+    <string name="accept">Aceptar</string>
+    <string name="share">Compartir</string>
+    <string name="filter">Filtrar</string>
+    <string name="all">Todos</string>
+    <string name="none">Ninguno</string>
+    <string name="yes">Si</string>
+    <string name="no">No</string>
+
+    <!-- ── Status labels ─────────────────────────────────────────────────────── -->
+    <string name="status_active">Activo</string>
+    <string name="status_warning">Pendiente</string>
+    <string name="status_danger">Infractor</string>
+    <string name="status_inactive">Inactivo</string>
+    <string name="status_approved">Aprobado</string>
+    <string name="status_rejected">Rechazado</string>
+    <string name="status_expired">Vencido</string>
+    <string name="status_in_review">En revision</string>
+
+    <!-- ── Authentication ────────────────────────────────────────────────────── -->
+    <string name="login_subtitle">Municipio de Tulua — Espacio Publico</string>
+    <string name="login_email">Correo electronico</string>
+    <string name="login_password">Contrasena</string>
+    <string name="login_button">Iniciar sesion</string>
+    <string name="login_forgot_password">Olvide mi contrasena</string>
+    <string name="recover_password_title">Recuperar contrasena</string>
+    <string name="recover_password_description">Ingrese su correo electronico y le enviaremos un enlace para restablecer su contrasena.</string>
+    <string name="recover_password_button">Enviar enlace</string>
+
+    <!-- ── Dashboard ─────────────────────────────────────────────────────────── -->
+    <string name="dashboard_stats_title">Resumen general</string>
+    <string name="dashboard_vendors_label">Vendedores</string>
+    <string name="dashboard_reports_label">Denuncias</string>
+    <string name="dashboard_requests_label">Tramites</string>
+
+    <!-- ── Map ───────────────────────────────────────────────────────────────── -->
+    <string name="map_my_location">Mi ubicacion</string>
+    <string name="map_filter_zone">Filtrar por zona</string>
+
+    <!-- ── Census ────────────────────────────────────────────────────────────── -->
+    <string name="census_add_vendor">Agregar vendedor</string>
+    <string name="census_vendor_name">Nombre del vendedor</string>
+    <string name="census_vendor_id">Numero de identificacion</string>
+    <string name="census_vendor_category">Categoria</string>
+
+    <!-- ── Events ────────────────────────────────────────────────────────────── -->
+    <string name="events_upcoming">Proximos eventos</string>
+    <string name="events_past">Eventos anteriores</string>
+    <string name="events_date">Fecha</string>
+    <string name="events_location">Lugar</string>
+
+    <!-- ── Requests / Tramites ───────────────────────────────────────────────── -->
+    <string name="requests_new">Nuevo tramite</string>
+    <string name="requests_my_requests">Mis tramites</string>
+    <string name="requests_number">Numero de radicado</string>
+    <string name="requests_type">Tipo de tramite</string>
+    <string name="requests_date_submitted">Fecha de radicacion</string>
+
+    <!-- ── Accessibility content descriptions ────────────────────────────────── -->
+    <string name="cd_back">Volver</string>
+    <string name="cd_clear_search">Limpiar busqueda</string>
+    <string name="cd_app_logo">Logotipo Tulua Espacio Publico</string>
+    <string name="cd_filter">Filtrar resultados</string>
+    <string name="cd_menu">Abrir menu</string>
+    <string name="cd_notifications">Notificaciones</string>
+
+</resources>

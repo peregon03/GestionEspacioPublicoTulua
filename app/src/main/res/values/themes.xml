@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Legacy View-system theme required by AndroidManifest.xml.
+    The actual visual theme is applied programmatically via TuluaTheme (Compose).
+    Using a Theme.Material3 base keeps system chrome (status bar, navigation bar) consistent.
+-->
+<resources>
+    <style name="Theme.TuluaEspacioPublico" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Status bar and navigation bar are managed by WindowCompat in Theme.kt -->
+    </style>
+</resources>

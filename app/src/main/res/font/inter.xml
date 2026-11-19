@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Downloadable font configuration for Inter (Google Fonts).
+    Android will automatically download and cache the font from Google Fonts CDN.
+    Requires internet access on first run; falls back to system default if unavailable.
+
+    Font provider: fonts.gstatic.com
+    Font family: Inter
+-->
+<font-family xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:fontProviderAuthority="com.google.android.gms.fonts"
+    app:fontProviderPackage="com.google.android.gms"
+    app:fontProviderQuery="Inter"
+    app:fontProviderCerts="@array/com_google_android_gms_fonts_certs">
+</font-family>
