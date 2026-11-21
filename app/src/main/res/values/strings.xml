@@ -77,6 +77,8 @@
     <!-- ── Map ───────────────────────────────────────────────────────────────── -->
     <string name="map_my_location">Mi ubicacion</string>
     <string name="map_filter_zone">Filtrar por zona</string>
+    <string name="cd_map">Mapa de Tulua con modulos y sectores</string>
+    <string name="map_attribution">© OpenStreetMap</string>
 
     <!-- ── Census ────────────────────────────────────────────────────────────── -->
     <string name="census_add_vendor">Agregar vendedor</string>

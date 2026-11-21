@@ -1,3 +1,2 @@
 # Copy this file to local.properties and fill in the values
-MAPS_API_KEY=your_maps_api_key_here
 BASE_URL=https://api.tulua.gov.co/api/v1/

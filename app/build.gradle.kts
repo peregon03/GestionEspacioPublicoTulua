@@ -7,7 +7,6 @@ plugins {
     alias(libs.plugins.kotlin.serialization)
     alias(libs.plugins.hilt)
     alias(libs.plugins.ksp)
-    alias(libs.plugins.secrets.gradle.plugin)
 }
 
 // Load local.properties
@@ -95,11 +94,6 @@ android {
     }
 }
 
-secrets {
-    propertiesFileName = "local.properties"
-    defaultPropertiesFileName = "local.properties.template"
-}
-
 dependencies {
     // Core
     implementation(libs.androidx.core.ktx)
@@ -139,7 +133,7 @@ dependencies {
     // CameraX
     implementation(libs.bundles.camerax)
 
-    // Google Maps
+    // Mapas (osmdroid) + ubicacion
     implementation(libs.bundles.maps)
 
     // Coroutines
