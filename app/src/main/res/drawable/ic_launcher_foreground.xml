@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Simple "EP" (Espacio Público) text icon in white -->
+    <group
+        android:translateX="24"
+        android:translateY="24">
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M15,20L15,40L35,40L35,35L20,35L20,32L33,32L33,27L20,27L20,25L35,25L35,20Z" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M40,20L40,40L45,40L45,33L55,33L55,27L55,20ZM45,28L45,25L50,25L50,28Z" />
+    </group>
+</vector>

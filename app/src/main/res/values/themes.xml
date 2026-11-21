@@ -5,7 +5,7 @@
     Using a Theme.Material3 base keeps system chrome (status bar, navigation bar) consistent.
 -->
 <resources>
-    <style name="Theme.TuluaEspacioPublico" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Theme.TuluaEspacioPublico" parent="android:Theme.Material.Light.NoActionBar">
         <!-- Status bar and navigation bar are managed by WindowCompat in Theme.kt -->
     </style>
 </resources>
