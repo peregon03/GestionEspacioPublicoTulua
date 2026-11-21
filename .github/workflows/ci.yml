@@ -33,8 +33,7 @@ jobs:
 
       - name: Create local.properties from secrets
         run: |
-          echo "MAPS_API_KEY=${{ secrets.MAPS_API_KEY }}" > local.properties
-          echo "BASE_URL=${{ secrets.BASE_URL }}" >> local.properties
+          echo "BASE_URL=${{ secrets.BASE_URL }}" > local.properties
 
       - name: Grant execute permission to gradlew
         run: chmod +x gradlew
