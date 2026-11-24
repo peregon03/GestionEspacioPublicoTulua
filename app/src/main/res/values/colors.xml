@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Legacy color resources used by the View-system theme (themes.xml).
+    All Compose color tokens are defined in Color.kt (design system).
+    Do NOT duplicate tokens here; add only what the XML theme system requires.
+-->
+<resources>
+    <!-- Splash / launch screen colors matching the brand primary -->
+    <color name="brand_primary">#0F5F3A</color>
+    <color name="brand_primary_container">#E8F3EA</color>
+    <color name="brand_background">#F1FAF2</color>
+</resources>
