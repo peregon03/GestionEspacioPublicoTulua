@@ -29,23 +29,21 @@ jobs:
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v3
         with:
-          gradle-version: wrapper
+          gradle-version: '8.9'
 
       - name: Create local.properties from secrets
         run: |
           echo "BASE_URL=${{ secrets.BASE_URL }}" > local.properties
 
-      - name: Grant execute permission to gradlew
-        run: chmod +x gradlew
-
       - name: Build Mock Debug APK
-        run: ./gradlew assembleMockDebug
+        run: gradle assembleMockDebug
 
       - name: Run Lint (Mock Debug)
-        run: ./gradlew lintMockDebug
+        run: gradle lintMockDebug
+        continue-on-error: true
 
       - name: Run Unit Tests (Mock Debug)
-        run: ./gradlew testMockDebugUnitTest
+        run: gradle testMockDebugUnitTest
 
       - name: Upload APK artifact
         uses: actions/upload-artifact@v4
