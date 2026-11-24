@@ -34,6 +34,8 @@
     <string name="search_hint">Buscar…</string>
     <string name="empty_state_title">Sin resultados</string>
     <string name="empty_state_subtitle">No se encontraron elementos que coincidan con la busqueda.</string>
+    <string name="action_confirm">Confirmar</string>
+    <string name="action_cancel">Cancelar</string>
     <string name="cancel">Cancelar</string>
     <string name="save">Guardar</string>
     <string name="delete">Eliminar</string>
