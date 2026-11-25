@@ -1,11 +1,13 @@
 package co.gov.tulua.espaciopublico.core.di
 
+import co.gov.tulua.espaciopublico.data.mock.MockAuthRepository
 import co.gov.tulua.espaciopublico.data.mock.MockDashboardRepository
 import co.gov.tulua.espaciopublico.data.mock.MockEventRepository
 import co.gov.tulua.espaciopublico.data.mock.MockModuleRepository
 import co.gov.tulua.espaciopublico.data.mock.MockRequestRepository
 import co.gov.tulua.espaciopublico.data.mock.MockSectorRepository
 import co.gov.tulua.espaciopublico.data.mock.MockVendorRepository
+import co.gov.tulua.espaciopublico.domain.repository.AuthRepository
 import co.gov.tulua.espaciopublico.domain.repository.DashboardRepository
 import co.gov.tulua.espaciopublico.domain.repository.EventRepository
 import co.gov.tulua.espaciopublico.domain.repository.ModuleRepository
@@ -45,4 +47,8 @@ abstract class RepositoryModule {
     @Binds
     @Singleton
     abstract fun bindDashboardRepository(impl: MockDashboardRepository): DashboardRepository
+
+    @Binds
+    @Singleton
+    abstract fun bindAuthRepository(impl: MockAuthRepository): AuthRepository
 }

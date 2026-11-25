@@ -2,19 +2,12 @@ package co.gov.tulua.espaciopublico.core.designsystem
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
-import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
-import co.gov.tulua.espaciopublico.R
 
-// ─── Inter font family (downloadable font via res/font/inter.xml) ─────────────
-val InterFontFamily = FontFamily(
-    Font(R.font.inter, FontWeight.Normal),
-    Font(R.font.inter_medium, FontWeight.Medium),
-    Font(R.font.inter_semi_bold, FontWeight.SemiBold),
-    Font(R.font.inter_bold, FontWeight.Bold),
-)
+// ─── Font family (Roboto / system default) ──────────────────────────────────────
+val InterFontFamily = FontFamily.Default
 
 // ─── Custom compact typography scale ─────────────────────────────────────────
 // Display  28sp | Title 18sp | Section 16sp | Body 14sp | Label 12sp | Caption 11sp

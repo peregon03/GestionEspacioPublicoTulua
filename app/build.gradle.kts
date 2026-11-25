@@ -130,6 +130,12 @@ dependencies {
     // Coil
     implementation(libs.coil.compose)
 
+    // Vico Charts
+    implementation(libs.vico.compose.m3)
+
+    // Foundation (HorizontalPager)
+    implementation(libs.androidx.compose.foundation)
+
     // CameraX
     implementation(libs.bundles.camerax)
 

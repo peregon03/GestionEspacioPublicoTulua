@@ -17,6 +17,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavDestination.Companion.hasRoute
 import androidx.navigation.NavGraph.Companion.findStartDestination
@@ -51,6 +52,7 @@ private fun TuluaApp() {
 
     // Destinations that should NOT show the bottom nav bar
     val hideBottomBarDestinations = setOf(
+        AppDestination.Splash::class,
         AppDestination.Login::class,
         AppDestination.RecoverPassword::class,
     )
@@ -81,7 +83,7 @@ private fun TuluaApp() {
     ) { innerPadding ->
         AppNavGraph(
             navController = navController,
-            startDestination = AppDestination.Login,
+            startDestination = AppDestination.Splash,
             modifier = Modifier.padding(innerPadding),
         )
     }
@@ -95,7 +97,7 @@ private fun TuluaBottomNavBar(
 ) {
     NavigationBar(
         containerColor = MaterialTheme.colorScheme.surface,
-        tonalElevation = androidx.compose.ui.unit.dp * 2,
+        tonalElevation = 2.dp,
     ) {
         items.forEach { item ->
             val selected = currentDestination?.hasRoute(item.destination::class) == true

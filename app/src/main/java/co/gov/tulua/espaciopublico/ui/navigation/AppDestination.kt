@@ -3,15 +3,19 @@ package co.gov.tulua.espaciopublico.ui.navigation
 import kotlinx.serialization.Serializable
 
 /**
- * Type-safe navigation destinations using Navigation Compose serializable routes.
+ * Destinos de navegación type-safe con Navigation Compose + serialización.
  *
- * Sealed hierarchy groups destinations by area.
- * Each object / data class is annotated with @Serializable so Navigation Compose
- * can encode / decode route arguments automatically.
+ * Jerarquía sellada que agrupa destinos por área.
+ * Cada objeto / data class lleva @Serializable para que Navigation Compose
+ * pueda codificar/decodificar argumentos automáticamente.
  */
 sealed interface AppDestination {
 
-    // ─── Bottom-nav root destinations ─────────────────────────────────────────
+    // ─── Destino de inicio ────────────────────────────────────────────────────
+    @Serializable
+    data object Splash : AppDestination
+
+    // ─── Destinos del menú inferior ───────────────────────────────────────────
     @Serializable
     data object Dashboard : AppDestination
 
@@ -27,14 +31,14 @@ sealed interface AppDestination {
     @Serializable
     data object Requests : AppDestination
 
-    // ─── Auth destinations ────────────────────────────────────────────────────
+    // ─── Destinos de autenticación ────────────────────────────────────────────
     @Serializable
     data object Login : AppDestination
 
     @Serializable
     data object RecoverPassword : AppDestination
 
-    // ─── Detail destinations (future phases) ─────────────────────────────────
+    // ─── Destinos de detalle ──────────────────────────────────────────────────
     @Serializable
     data class VendorDetail(val vendorId: String) : AppDestination
 
@@ -43,4 +47,11 @@ sealed interface AppDestination {
 
     @Serializable
     data class RequestDetail(val requestId: String) : AppDestination
+
+    @Serializable
+    data class ModuleDetail(val moduleId: Long) : AppDestination
+
+    // ─── Destinos del censo ───────────────────────────────────────────────────
+    @Serializable
+    data object NewCensus : AppDestination
 }

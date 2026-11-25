@@ -61,12 +61,17 @@
     <!-- ── Authentication ────────────────────────────────────────────────────── -->
     <string name="login_subtitle">Municipio de Tulua — Espacio Publico</string>
     <string name="login_email">Correo electronico</string>
+    <string name="login_email_or_cedula">Correo electronico o cedula</string>
     <string name="login_password">Contrasena</string>
     <string name="login_button">Iniciar sesion</string>
     <string name="login_forgot_password">Olvide mi contrasena</string>
+    <string name="login_role_label">Ingresar como</string>
     <string name="recover_password_title">Recuperar contrasena</string>
     <string name="recover_password_description">Ingrese su correo electronico y le enviaremos un enlace para restablecer su contrasena.</string>
     <string name="recover_password_button">Enviar enlace</string>
+    <string name="recover_password_success">Enlace enviado</string>
+    <string name="recover_password_success_detail">Se envio un enlace a tu correo. Revisa tu bandeja de entrada y sigue las instrucciones.</string>
+    <string name="recover_password_back_to_login">Volver al inicio de sesion</string>
 
     <!-- ── Dashboard ─────────────────────────────────────────────────────────── -->
     <string name="dashboard_stats_title">Resumen general</string>
@@ -74,17 +79,124 @@
     <string name="dashboard_reports_label">Denuncias</string>
     <string name="dashboard_requests_label">Tramites</string>
 
+    <!-- Estadísticas del dashboard -->
+    <string name="dashboard_stat_total_censados">Total censados</string>
+    <string name="dashboard_stat_esta_semana">esta semana</string>
+    <string name="dashboard_stat_ocupacion_hoy">Ocupacion hoy</string>
+    <string name="dashboard_stat_solicitudes">Solicitudes pendientes</string>
+    <string name="dashboard_stat_formales_informales">Formales / Informales</string>
+    <string name="dashboard_formales">F: %1$d</string>
+    <string name="dashboard_informales">I: %1$d</string>
+
+    <!-- Secciones del dashboard -->
+    <string name="dashboard_section_sectores">Modulos por sector</string>
+    <string name="dashboard_section_eventos">Proximos eventos</string>
+    <string name="dashboard_no_eventos">Sin eventos proximos programados.</string>
+
+    <!-- Eventos -->
+    <string name="dashboard_evento_fecha">Fecha</string>
+    <string name="dashboard_evento_organizador">Organiza</string>
+
+    <!-- Banner de alerta de ocupacion alta -->
+    <string name="dashboard_banner_ocupacion">Pico de ocupacion: %1$d%% — revisar zonas saturadas</string>
+
     <!-- ── Map ───────────────────────────────────────────────────────────────── -->
     <string name="map_my_location">Mi ubicacion</string>
     <string name="map_filter_zone">Filtrar por zona</string>
     <string name="cd_map">Mapa de Tulua con modulos y sectores</string>
     <string name="map_attribution">© OpenStreetMap</string>
+    <string name="map_zoom_in">Acercar</string>
+    <string name="map_zoom_out">Alejar</string>
+    <string name="map_all">Todos</string>
+    <string name="map_formal">Formales</string>
+    <string name="map_informal">Informales</string>
+    <string name="map_feria">Ferias</string>
+    <string name="map_filter_advanced">Filtros avanzados</string>
+    <string name="map_filter_sector">Sector</string>
+    <string name="map_filter_status">Estado</string>
+    <string name="map_filter_apply">Aplicar filtros</string>
+    <string name="map_filter_all_sectors">Todos los sectores</string>
+    <string name="map_filter_all_statuses">Todos los estados</string>
+    <string name="map_ver_detalle">Ver detalle</string>
+    <string name="map_reportar">Reportar</string>
+    <string name="map_tipo_badge">Tipo</string>
+    <string name="map_area_label">Area (m²)</string>
+    <string name="map_dimensions_label">Dimensiones</string>
+    <string name="map_valid_until_label">Vigente hasta</string>
+    <string name="map_vendor_label">Titular</string>
+    <string name="map_address_label">Direccion</string>
+    <string name="map_report_sent">Reporte enviado (simulado)</string>
+    <string name="map_location_rationale_title">Permiso de ubicacion</string>
+    <string name="map_location_rationale_body">Para centrar el mapa en su posicion actual, la aplicacion necesita acceder a su ubicacion.</string>
+    <string name="map_location_denied">Permiso de ubicacion denegado</string>
+    <string name="map_no_modules">No hay modulos con los filtros seleccionados</string>
+    <string name="cd_map_my_location">Centrar mapa en mi ubicacion</string>
+    <string name="cd_map_zoom_in">Acercar mapa</string>
+    <string name="cd_map_zoom_out">Alejar mapa</string>
+    <string name="cd_map_advanced_filters">Abrir filtros avanzados</string>
 
     <!-- ── Census ────────────────────────────────────────────────────────────── -->
     <string name="census_add_vendor">Agregar vendedor</string>
     <string name="census_vendor_name">Nombre del vendedor</string>
     <string name="census_vendor_id">Numero de identificacion</string>
     <string name="census_vendor_category">Categoria</string>
+
+    <!-- Census list -->
+    <string name="census_filter_formales">Formales</string>
+    <string name="census_filter_informales">Informales</string>
+    <string name="census_filter_feria">Feria</string>
+    <string name="census_filter_suspendido">Suspendido</string>
+    <string name="census_nuevo_registro">Nuevo registro</string>
+    <string name="census_export_csv">Exportar CSV</string>
+    <string name="census_total_count">%d modulos</string>
+    <string name="census_empty_subtitle">Ajuste los filtros o agregue un nuevo modulo con el boton +</string>
+
+    <!-- Census detail -->
+    <string name="census_detail_title">Detalle del modulo</string>
+    <string name="census_photo_cd">Foto del modulo</string>
+    <string name="census_section_datos_generales">Datos generales</string>
+    <string name="census_section_titular">Titular</string>
+    <string name="census_section_ubicacion">Ubicacion</string>
+    <string name="census_section_permisos">Permisos</string>
+    <string name="census_section_documentos">Documentos</string>
+    <string name="census_section_sanciones">Sanciones</string>
+
+    <!-- Census fields -->
+    <string name="census_field_code">Codigo</string>
+    <string name="census_field_name">Nombre</string>
+    <string name="census_field_category">Categoria</string>
+    <string name="census_field_area">Area (m²)</string>
+    <string name="census_field_dimensions">Dimensiones</string>
+    <string name="census_field_valid_until">Vigencia hasta</string>
+    <string name="census_field_observations">Observaciones</string>
+    <string name="census_field_fullname">Nombre completo</string>
+    <string name="census_field_idnumber">Cedula</string>
+    <string name="census_field_phone">Telefono</string>
+    <string name="census_field_email">Correo</string>
+    <string name="census_field_association">Asociacion</string>
+    <string name="census_field_address">Direccion</string>
+    <string name="census_field_zone">Zona</string>
+    <string name="census_field_sector">Sector</string>
+    <string name="census_field_coords">Coordenadas</string>
+
+    <!-- Census wizard -->
+    <string name="census_wizard_title">Nuevo censo</string>
+    <string name="census_wizard_type">Tipo de modulo</string>
+    <string name="census_wizard_width">Ancho (m)</string>
+    <string name="census_wizard_length">Largo (m)</string>
+    <string name="wizard_step1_title">Paso 1: Titular</string>
+    <string name="wizard_step2_title">Paso 2: Modulo</string>
+    <string name="wizard_step3_title">Paso 3: Ubicacion</string>
+    <string name="wizard_step4_title">Paso 4: Foto</string>
+    <string name="wizard_step5_title">Paso 5: Resumen</string>
+    <string name="wizard_next">Siguiente</string>
+    <string name="wizard_back">Anterior</string>
+    <string name="wizard_get_location">Obtener mi ubicacion</string>
+    <string name="wizard_latitude">Latitud</string>
+    <string name="wizard_longitude">Longitud</string>
+    <string name="wizard_take_photo">Tomar foto</string>
+    <string name="wizard_retake_photo">Volver a tomar</string>
+    <string name="wizard_photo_optional">La foto es opcional pero recomendada</string>
 
     <!-- ── Events ────────────────────────────────────────────────────────────── -->
     <string name="events_upcoming">Proximos eventos</string>
@@ -106,5 +218,7 @@
     <string name="cd_filter">Filtrar resultados</string>
     <string name="cd_menu">Abrir menu</string>
     <string name="cd_notifications">Notificaciones</string>
+    <string name="cd_show_password">Mostrar contrasena</string>
+    <string name="cd_hide_password">Ocultar contrasena</string>
 
 </resources>
