@@ -1,6 +1,6 @@
 # Tulua Espacio Publico — App Android
 
-> Proyecto academico en desarrollo — Curso de Desarrollo Movil
+> Proyecto academico en desarrollo — Introducción a gestion de proyectos de software.
 
 ---
 
